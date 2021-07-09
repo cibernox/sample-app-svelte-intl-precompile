@@ -1,5 +1,5 @@
 <script>
-	import { t } from 'svelte-intl-precompile'
+	import { t, locale, locales } from 'svelte-intl-precompile'
 	let count = 1;
 	let time = new Date();
 	let gender = 'female';
@@ -24,6 +24,13 @@
 		<button type="button" on:click={() => gender = 'other'}>Other</button>		
 	</p>
 </section>
+
+<footer>
+	Change language: 
+	{#each $locales as loc}
+		<button type="button" class={loc === $locale && 'current-locale'} on:click={() => $locale = loc}>{loc}</button>
+	{/each}
+</footer>
 
 
 

@@ -1,0 +1,9 @@
+export default {
+  "plain": "Un texto sin interpolaciones",
+  "interpolated": "Un texto donde interpolo el valor: {val}",
+  "time": "La hora es {now, time}",
+  "number": "Mi número favorito es el {n, number}",
+  "pluralized": "{count, plural,=0 {No tengo gatos} =1 {Tengo un gato} other {Tengo {count} gatos}}",
+  "pluralized-with-hash": "{count, plural, zero {No tengo gatos} one {Tengo sólo # gato} =2 {Tengo # gatos} =3 {Tengo # gatos} other {Tengo un montón de gatos}}",
+  "selected": "{gender, select, male {Es un buen chico} female {Es una buena chica} other {Es buena gente}}",
+}
