@@ -1,4 +1,4 @@
-export default {
+{
   "plain": "Some text without interpolations",
   "interpolated": "A text where I interpolate the value: {val}",
   "time": "Now is {now, time}",

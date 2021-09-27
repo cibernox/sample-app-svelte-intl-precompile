@@ -8,13 +8,16 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
-    "svelte": "^3.34.0"
+    "svelte": "^3.43.0"
   },
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "svelte-intl-precompile": "^0.3.3"
+    "svelte-intl-precompile": "^0.4.0"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }

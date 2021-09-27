@@ -7,7 +7,7 @@ const config = {
 		target: '#svelte',
     vite: {
       plugins: [
-        precompileIntl('locales') // if your translations are defined in /locales/[lang].js
+        precompileIntl('locales') // if your translations are defined in /locales/[lang].json
       ]			
     }		
 	}
