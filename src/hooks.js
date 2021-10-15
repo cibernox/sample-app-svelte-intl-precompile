@@ -20,3 +20,10 @@ export const handle = async ({ request, resolve }) => {
 
 	return response;
 };
+
+export function getSession(request) {
+	console.log('request.headers["accept-language"]', request.headers["accept-language"])
+  let acceptedLanguage = request.headers["accept-language"] && request.headers["accept-language"].split(',')[0];
+	console.log('aracceptedLanguage', acceptedLanguage)
+  return { acceptedLanguage };
+}
