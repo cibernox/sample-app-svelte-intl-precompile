@@ -8,7 +8,7 @@
   addMessages('en', en);
   addMessages('en-GB', enGb);
   addMessages('es', es);
-  // register('es', () => import('$locales/en.js')); <-- use this approach if you want locales to be load lazily
+  // register('es', () => import('$locales/es.js')); <-- use this approach if you want locales to be load lazily
 
 	import '../app.css';  
 </script>
